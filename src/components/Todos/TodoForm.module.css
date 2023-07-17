@@ -1,0 +1,45 @@
+.todoForm {
+  margin-top: 40px;
+  display: inline-block;
+  width: 300px;
+}
+.todoForm .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.todoForm .label .inputNewTodo {
+  padding: 5px;
+  height: 27px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1019607843) 1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.1019607843) 1px 1px 1px;
+}
+.todoForm .label .submitNewTodo {
+  font-weight: bold;
+  font-size: 20px;
+  height: 37px;
+  width: 77px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1019607843) 1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.1019607843) 1px 1px 1px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.todoForm .label .submitNewTodo:hover {
+  margin-left: 15px;
+  width: 85px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}

@@ -1,0 +1,35 @@
+.todoForm {
+  margin-top: 40px;
+  display: inline-block;
+  width: 300px;
+  .label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .inputNewTodo {
+      padding: 5px;
+      height: 27px;
+      width: 200px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+      border: 1px solid #000;
+      box-shadow: #0000001a 1px 1px 1px;
+    }
+    .submitNewTodo {
+      font-weight: bold;
+      font-size: 20px;
+      height: 37px;
+      width: 77px;
+      border-radius: 5px;
+      border: 1px solid #000;
+      box-shadow: #0000001a 1px 1px 1px;
+      transition-duration: 0.3s;
+      &:hover {
+        margin-left: 15px;
+        width: 85px;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}

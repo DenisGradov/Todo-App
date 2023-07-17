@@ -1,0 +1,21 @@
+.todoListBlock {
+  margin: 70px auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //border: 1px solid #000;
+}
+
+.noTodo {
+  margin: 20px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.info {
+  color: white;
+  font-size: 20px;
+}

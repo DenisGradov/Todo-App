@@ -1,0 +1,14 @@
+.deleateBox .deleateButton {
+  padding: 5px;
+  margin: 20px 6px;
+  margin-bottom: -40px;
+  font-size: 40px;
+  background: wheat;
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.deleateBox .deleateButton:hover {
+  font-size: 45px;
+  margin-top: -22px;
+}
